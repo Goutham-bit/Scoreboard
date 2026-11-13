@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'Digital';
+    src: url("fonts/digital-7/digital-7.ttf")
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.teamguest{
+    margin-top: 50px;
+    color: #EEEEEE;
+    font-size: 35px;
+}
+.teamhome{
+    margin-top: 50px;
+    color: #EEEEEE;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.scorecard{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    width: 578px;
+    height: 375px;
+    background-color: #1B244A;
+}
+
+.scoreleft{
+    border-radius: 5px;
+    margin-top: -20px;
+    background-color: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+}
+
+.scoreright{
+    border-radius: 5px;
+    margin-top: -20px;
+    background-color: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+}
+#scorehome{
+    font-family: Digital;
+    padding-left: 35px;
+    display: flex;
+    flex-direction:column;
+    width: 117px;
+    height: 120px;
+    font-size: 120px;
+}
+#scoreguest{
+    font-family: Digital;
+    padding-left: 35px;
+    display: flex;
+    flex-direction:column;
+    width: 117px;
+    height: 120px;
+    font-size: 120px;
+}
+.btn{
+    width: 155px;
+    height: 45px;
+    gap: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.btn-background{
+    margin-top: -260px;
+    flex: 1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 25px;
+    font-family: Digital;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+.btn-background:active{
+    background: #F94F6D;
+    box-shadow: 0 0  10px darkslateblue;
+}
+
+#new-game{
+    font-size: 24px;
+    font-family: Digital;
+    color: #F94F6D;
+    height: 50px;
+    width: 110px;
+    margin: 0;
+    margin-bottom: 28px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    background-color: #080001;
+
+}
+#new-game:active{
+    box-shadow: 0 0  10px snow;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<html>
+    <body>
+        <audio id="new-game-sound" src="fonts/digital-7/new%20game.wav" preload="auto"></audio>
+        <div class="container">
+            <div class="scorecard">
+                <div>
+                    <h3 class="teamhome">HOME</h3>
+                    <h4 class="scoreright" id="scorehome">0</h4>
+                    <div class="btn">
+                        <button class="btn-background" type="button" onclick="add1Home()">+1</button>
+                        <button class="btn-background" type="button" onclick="add2Home()">+2</button>  
+                        <button class="btn-background" type="button" onclick="add3Home()">+3</button>  
+                    </div>
+                </div>
+                <button id="new-game" onclick="newGame()">New Game</button>
+                
+                <div>
+                    <h3 class="teamguest">GUEST</h3>
+                    <h4 class="scoreleft" id="scoreguest">0</h4>
+                    <div class="btn">
+                        <button class="btn-background" type="button" onclick="add1Guest()">+1</button>  
+                        <button class="btn-background" type="button" onclick="add2Guest()">+2</button>  
+                        <button class="btn-background" type="button" onclick="add3Guest()">+3</button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
